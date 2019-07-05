@@ -1,0 +1,203 @@
+# Colors:
+# &0-9, &a-f
+# {0}, {1}, {2}, etc are variables. You can swap them around, but adding a new variable won't work. Removing them will work
+# 
+# Translate data.
+# ======================================================================
+# For Translator: These string can changed by your self.
+translation-author: '§c§l翻訳者: §b§lMCPlayNetwork'
+translation-contributors: '§c§l貢献者: §b§lSNAKE0053'
+translation-version: '§c§lSupport Version: §b§lReremake'
+translation-country: '§c§lLanguage Zone: §b§lJapanese (ja_JP)'
+language-version: '16'
+not-looking-at-shop: §cショップがありません。ショップを見ている必要があります。
+no-anythings-in-your-hand: §c手に何も持っていません。
+no-permission: §9§lError §7§l| §cNo permission
+no-creative-break: §cYou cannot break other players shops in creative mode.  Use survival
+  instead.
+no-double-chests: §cYou cannot break other players shops in creative mode.  Use survival
+  instead or use SuperTool ({0}).
+shop-already-owned: §cすでにショップです。
+chest-was-removed: §cチェストが破壊されました。
+price-too-cheap: §7価格は§6$0.01§7以上である必要があります。
+no-price-change: §cThat wouldn't result in a price change!
+you-cant-afford-a-new-shop: §cIt costs {0} to create a new shop.
+player-bought-from-your-store-tax: §c{0} purchased {1} {2} from your store, and you
+  paid {3} in taxes.
+you-cant-afford-to-change-price: §cIt costs {0} to change the price in your shop.
+success-created-shop: §aショップを作成しました。
+success-removed-shop: §cショップを削除しました。
+shops-arent-locked: §cRemember, shops are NOT protected from theft! If you want to
+  stop thieves, lock it with LWC, Lockette, etc!
+shop-creation-cancelled: §cショップ作成がキャンセルされました。
+shop-purchase-cancelled: §cショップからの購入がキャンセルされました。
+shop-stock-too-low: §cこのショップには{1}が{0}個しかありません。
+you-cant-afford-to-buy: §cThat costs {0}, but you only have {1}
+negative-amount: §c負の値で取引はできません。
+player-bought-from-your-store: §e{0}§7がショップから§e{1}個{2}§7を購入しました。
+shop-out-of-stock: §e{0},{1},{2} §7のショップで販売中の§e{3}§7の在庫がなくなりました。
+shop-has-no-space: §cこのショップは{1}をあと{0}個しか買い取れません。
+you-dont-have-that-many-items: §cYou only have {0} {1}.
+the-owner-cant-afford-to-buy-from-you: §cThat costs {0} but the owner only has {1}
+player-sold-to-your-store: §a{0} sold {1} {2} to your store.
+shop-out-of-space: §e{0}, {1}, {2}§7のショップが満杯です。
+fee-charged-for-price-change: §aYou pay §c{0}§a to change the price.
+price-is-now: §7このショップの価格は§6{0}§7になりました。
+thats-not-a-number: §cInvalid number
+no-price-given: §cPlease give a valid price.
+average-price-nearby: '§aAverage Price Nearby: §e{0}'
+shop-has-changed: §cThe shop you tried to use has changed since you clicked it!
+shop-not-exist: §cThere had no shop.
+nearby-shop-this-way: §aShop is {0} blocks away from you.
+no-nearby-shop: §cNo shops matching {0} nearby.
+buying-more-than-selling: '§cWARNING: You are buying items for more than you are selling
+  them!'
+not-enough-space: §cYou only have room for {0} more of that!
+refill-success: §aRefill success
+empty-success: §aEmpty success
+admin-shop: AdminShop
+unknown-owner: Unknown
+owner-bypass-check: §eBypassed all checks, Trade successful! (You are shop owner)
+reached-maximum-can-create: §cYou have already created a maximum of {0}/{1} shops!
+restricted-prices: '§cRestricted prices for {0}: min {1} , max {2}'
+no-enough-money-to-keep-shops: §cYou didn't have enough money to keep your shops!
+  All shops have now been removed...
+nothing-to-flush: §aYou had no new shop message.
+break-shop-use-supertool: §eYou can break the shop by using the SuperTool.
+failed-to-put-sign: §cNot enough space around the shop to place the information sign.
+failed-to-paste: §cFailed to upload the data to Pastebin, Check your internet and
+  try again. (See console for details)
+warn-to-paste: §eCollecting data and uploading it to Pastebin, this may take a while.
+  §c§lWarning§c, The data is kept public for one week, it may leak your server configuration
+  and other sensitive information, make sure you only send it to your §ltrusted staff/developer.
+price-too-high: §c The shop price too high! You can't create one that is priced higher
+  than {0}.
+you-cant-create-shop-in-there: §cYou don't have permission to create a shop at this
+  location.
+unknown-player: §cTarget player doesn't exist, please check the username you typed.
+shop-staff-cleared: §aSuccessfully removed all staff for your shop.
+shop-staff-added: §aSuccessfully added {0} to your shop staffs.
+shop-staff-deleted: §aSuccessfully removed {0} from your shop staffs.
+no-permission-build: §cYou can't build a shop here.
+success-change-owner-to-server: §aSuccessfully set the shop owner to Server.
+flush-finished: §aSuccessfully flushed the messages.
+purchase-failed: '§cPurchase failed: Internal Error, please contact the server administrator.'
+menu:
+  successful-purchase: '§a購入が完了しました:'
+  successfully-sold: '§a売却が完了しました:'
+  item-name-and-price: §e{0} {1} §afor §e{2}
+  sell-tax: §aYou paid §e{0} §ain taxes.
+  sell-tax-self: §aYou own this shop so you don't pay taxes.
+  enchants: §5Enchants
+  stored-enchants: §5Stored Enchants
+  shop-information: '§aショップインフォメーション:'
+  owner: §e所有者 §7- §6{0}
+  item: §eアイテム §7- §6{0}
+  preview: §8[§cアイテムをプレビュー§8]
+  space: §eスペース §7- §6{0}
+  stock: §e在庫数 §7- §6{0}
+  price-per: §e{0}§7一個あたりの価格 §7- §6{1}
+  total-value-of-chest: '§aTotal value of Chest: §e{0}'
+  damage-percent-remaining: §e{0}% §aRemaining.
+  this-shop-is-buying: §7このショップはアイテムを§6売却§7しています。
+  this-shop-is-selling: §7このショップはアイテムを§6販売§7しています。
+  effects: '§aEffects: §e{0}'
+  commands:
+    preview: /qs silentpreview {0} {1} {2} {3}
+bypassing-lock: §cBypassing a QuickShop lock!
+that-is-locked: §cこのショップはロックされています。
+how-many-buy: §7チャットに希望する購入数を書いて下さい。
+how-many-sell: §7チャットに希望する買取数を書いて下さい。現在§e{0}個§7を持っています。
+not-allowed-to-create: §cあなたはここにショップを作ることはできません。
+blacklisted-item: §cこのアイテムはブラックリストに登録されているため取引できません。
+how-much-to-trade-for: §7チャットにアイテム§e{0}§7のトレード額を書いて下さい。
+command:
+  toggle-unlimited: §aShop is now {0}
+  no-owner-given: §cNo owner given. Use §a/qs setowner <player>§c
+  new-owner: '§aNew owner: §e{0}'
+  now-buying: §a現在§e{0}§aを販売しています。
+  now-selling: §a現在§e{0}§aを買取しています。
+  cleaning: §aCleaning up shops with 0 stock...
+  reloading: §aReloading...
+  cleaned: §aCleaned §e{0}§a shops
+  no-type-given: '§cUsage: /qs find <item>'
+  no-amount-given: §cNo amount given. Use §a/qs refill <amount>§c
+  now-debuging: §aSuccessfully switched to developer mode, Reloading QuickShop...
+  now-nolonger-debuging: §aSuccessfully switched to production mode, Reloading QuickShop...
+  wrong-args: §cParameters don't match, use /qs help to check help
+  description:
+    title: §aQuickShop Help
+    unlimited: §eMakes a shop unlimited
+    setowner: §eChanges who owns a shop
+    buy: §eConverts a shop to §dBUY§e mode
+    sell: §eConverts a shop to §bSELL§e mode
+    clean: §eRemoves all (loaded) shops with 0 stock
+    price: §eChanges the buy/selling price of one of your shops
+    find: §eLocates the nearest shop of a specific type.
+    reload: §eReloads the config.yml for QuickShop
+    refill: §eAdds a given number of items to a shop
+    empty: §eRemoves all stock from a shop
+    create: §eCreates a new shop at the target chest
+    debug: §eSwitch to developer mode
+    fetchmessage: §eFetch unread shop message
+    info: §eShow QuickShop Statistics
+    paste: §eAuto upload server data to Pastebin
+    staff: §eManage your shop staffs
+signs:
+  header: §l{0}
+  selling: 販売 {0}個
+  buying: 買取 {0}個
+  item: '{0}'
+  price: 一個 {0}
+  unlimited: Unlimited
+controlpanel:
+  infomation: §e§lショップコントロールパネル
+  setowner: §e所有者 §7- §6{0} §8[§c変更§8]
+  setowner-hover: §e所有者を変更したい場合はクリックして下さい。
+  unlimited: '§aUnlimited: {0} §e[§d§lSwitch§e]'
+  unlimited-hover: §eClick to toggle if the shop is unlimited.
+  mode-selling: §eショップモード §7- §6販売 §8[§c変更§8]
+  mode-selling-hover: §eClick to convert the ship to be in the selling mode.
+  mode-buying: §eショップモード §7- §6買取 §8[§c変更§8]
+  mode-buying-hover: §eClick to convert the ship to be in the buying mode.
+  price: §e価格 §7- §6{0} §8[§c変更§8]
+  price-hover: §eClick to set a new price for the shop.
+  refill: '§aRefill: Refill the shop items §e[§d§lOK§e]'
+  refill-hover: §eClick to refill the shop.
+  empty: '§aEmpty: Remove shop all items §e[§d§lOK§e]'
+  empty-hover: §eClick to clear the inventory of the shop.
+  remove: §8[§c§lショップを削除§8]
+  remove-hover: §eクリックしてショップを削除
+  commands:
+    setowner: /qs setowner [Player]
+    unlimited: /qs silentunlimited {0} {1} {2} {3}
+    buy: /qs silentbuy {0} {1} {2} {3}
+    sell: /qs silentsell {0} {1} {2} {3}
+    price: /qs price [New Price]
+    refill: /qs refill [Amount]
+    empty: /qs silentempty {0} {1} {2} {3}
+    remove: /qs silentremove {0} {1} {2} {3}
+tableformat:
+  full_line: +---------------------------------------------------+
+  left_half_line: +--------------------
+  right_half_line: '--------------------+'
+  left_begin: '| '
+booleanformat:
+  success: §a✔
+  failed: §c✘
+tabcomplete:
+  price: '[price]'
+  range: '[range]'
+  amount: '[amount]'
+updatenotify:
+  buttontitle: '[Update Now]'
+  list: '[{0} is released, You are still using {1}!, Boom! New update {0} incoming,
+    Update!, Surprise! {0} came out, you are on {1}, Looks like you need to update,
+    {0} is released!, Ooops! {0} is now released, you are on {1}!, I promise, QS has
+    been updated to {0}, why have you not updated?, Fixing and re... Sorry {0} is
+    released!, Err! Nope, this is not an error, {0} has just been released!, OMG!
+    {0} came out! Why are you still using {1}?, Todays News: QuickShop has been updated
+    to {0}!, Plugin K.I.A, You should update to {0}!, Fuze is fuzeing update {0},
+    save update!, There is an update commander, {0} has just come out!, Look me style---{0}
+    updated, your still using {1}, Ahhhhhhh! New update {0}! Update!, What U thinking?
+    {0} has been released! Update!]'
