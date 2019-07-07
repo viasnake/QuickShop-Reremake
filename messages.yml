@@ -1,18 +1,11 @@
-# Colors:
-# &0-9, &a-f
-# {0}, {1}, {2}, etc are variables. You can swap them around, but adding a new variable won't work. Removing them will work
-# 
-# Translate data.
-# ======================================================================
-# For Translator: These string can changed by your self.
 translation-author: '§c§l翻訳者: §b§lMCPlayNetwork'
 translation-contributors: '§c§l貢献者: §b§lSNAKE0053'
 translation-version: '§c§lSupport Version: §b§lReremake'
-translation-country: '§c§lLanguage Zone: §b§lJapanese (ja_JP)'
+translation-country: '§c§l言語: §b§lJapanese (ja_JP)'
 language-version: '16'
 not-looking-at-shop: §cショップがありません。ショップを見ている必要があります。
 no-anythings-in-your-hand: §c手に何も持っていません。
-no-permission: §9§lError §7§l| §cNo permission
+no-permission: §4No permission
 no-creative-break: §cYou cannot break other players shops in creative mode.  Use survival
   instead.
 no-double-chests: §cYou cannot break other players shops in creative mode.  Use survival
@@ -56,7 +49,7 @@ not-enough-space: §cYou only have room for {0} more of that!
 refill-success: §aRefill success
 empty-success: §aEmpty success
 admin-shop: AdminShop
-unknown-owner: Unknown
+unknown-owner: 不明
 owner-bypass-check: §eBypassed all checks, Trade successful! (You are shop owner)
 reached-maximum-can-create: §cYou have already created a maximum of {0}/{1} shops!
 restricted-prices: '§cRestricted prices for {0}: min {1} , max {2}'
@@ -88,7 +81,7 @@ menu:
   item-name-and-price: §e{0} {1} §afor §e{2}
   sell-tax: §aYou paid §e{0} §ain taxes.
   sell-tax-self: §aYou own this shop so you don't pay taxes.
-  enchants: §5Enchants
+  enchants: §5エンチャント
   stored-enchants: §5Stored Enchants
   shop-information: '§aショップインフォメーション:'
   owner: §e所有者 §7- §6{0}
@@ -114,13 +107,13 @@ how-much-to-trade-for: §7チャットにアイテム§e{0}§7のトレード額
 command:
   toggle-unlimited: §aShop is now {0}
   no-owner-given: §cNo owner given. Use §a/qs setowner <player>§c
-  new-owner: '§aNew owner: §e{0}'
+  new-owner: '§a新しい所有者: §e{0}'
   now-buying: §a現在§e{0}§aを販売しています。
   now-selling: §a現在§e{0}§aを買取しています。
   cleaning: §aCleaning up shops with 0 stock...
   reloading: §aReloading...
   cleaned: §aCleaned §e{0}§a shops
-  no-type-given: '§cUsage: /qs find <item>'
+  no-type-given: '§c使い方: /qs find <アイテム名>'
   no-amount-given: §cNo amount given. Use §a/qs refill <amount>§c
   now-debuging: §aSuccessfully switched to developer mode, Reloading QuickShop...
   now-nolonger-debuging: §aSuccessfully switched to production mode, Reloading QuickShop...
@@ -143,6 +136,11 @@ command:
     info: §eShow QuickShop Statistics
     paste: §eAuto upload server data to Pastebin
     staff: §eManage your shop staffs
+    owner: §eChanges who owns a shop
+    remove: §eRemove your looking the shop
+    amount: §eExecute for your actions with amount(For chat plugin issue)
+    about: §eShow QuickShop abouts
+    help: §eShow QuickShop helps
 signs:
   header: §l{0}
   selling: 販売 {0}個
@@ -181,7 +179,7 @@ tableformat:
   full_line: +---------------------------------------------------+
   left_half_line: +--------------------
   right_half_line: '--------------------+'
-  left_begin: '| '
+  left_begin: '  '
 booleanformat:
   success: §a✔
   failed: §c✘
@@ -201,3 +199,4 @@ updatenotify:
     save update!, There is an update commander, {0} has just come out!, Look me style---{0}
     updated, your still using {1}, Ahhhhhhh! New update {0}! Update!, What U thinking?
     {0} has been released! Update!]'
+no-pending-action: §cYou do not have any pending action
