@@ -1,11 +1,18 @@
+# Colors:
+# &0-9, &a-f
+# {0}, {1}, {2}, etc are variables. You can swap them around, but adding a new variable won't work. Removing them will work
+# 
+# Translate data.
+# ======================================================================
+# For Translator: These string can changed by your self.
 translation-author: '§c§l翻訳者: §b§lMCPlayNetwork'
 translation-contributors: '§c§l貢献者: §b§lSNAKE0053'
 translation-version: '§c§lSupport Version: §b§lReremake'
-translation-country: '§c§l言語: §b§lJapanese (ja_JP)'
+translation-country: '§c§lLanguage Zone: §b§lJapanese (ja_JP)'
 language-version: '16'
 not-looking-at-shop: §cショップがありません。ショップを見ている必要があります。
 no-anythings-in-your-hand: §c手に何も持っていません。
-no-permission: §4No permission
+no-permission: §cNo permission
 no-creative-break: §cYou cannot break other players shops in creative mode.  Use survival
   instead.
 no-double-chests: §cYou cannot break other players shops in creative mode.  Use survival
@@ -141,6 +148,7 @@ command:
     amount: §eExecute for your actions with amount(For chat plugin issue)
     about: §eShow QuickShop abouts
     help: §eShow QuickShop helps
+    supercreate: §eCreate a shop bypass all protection checks
 signs:
   header: §l{0}
   selling: 販売 {0}個
@@ -179,7 +187,7 @@ tableformat:
   full_line: +---------------------------------------------------+
   left_half_line: +--------------------
   right_half_line: '--------------------+'
-  left_begin: '  '
+  left_begin: '| '
 booleanformat:
   success: §a✔
   failed: §c✘
@@ -199,4 +207,10 @@ updatenotify:
     save update!, There is an update commander, {0} has just come out!, Look me style---{0}
     updated, your still using {1}, Ahhhhhhh! New update {0}! Update!, What U thinking?
     {0} has been released! Update!]'
+  onekeybuttontitle: '[OneKey Update]'
+  remote-disable-warning: '§cThis version of QuickShop is marked disabled by remote
+    server, that mean this version may have serious problem, get details from our
+    SpigotMC page: {0}. This warning will appear and spam your console until you use
+    other not disabled version to replace this one, doesn''t effect your server running.'
 no-pending-action: §cYou do not have any pending action
+permission-denied-3rd-party: '§cPermission denied: 3rd party plugin [{0}].'
